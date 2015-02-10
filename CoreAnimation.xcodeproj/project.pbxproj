@@ -14,6 +14,10 @@
 		A5B00AF51A67650200870F9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B00AF41A67650200870F9C /* Images.xcassets */; };
 		A5B00AF81A67650200870F9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5B00AF61A67650200870F9C /* LaunchScreen.xib */; };
 		A5B00B041A67650200870F9C /* CoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B00B031A67650200870F9C /* CoreAnimationTests.m */; };
+		A5B00B131A67717800870F9C /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B00B0F1A67717800870F9C /* clock@2x.png */; };
+		A5B00B141A67717800870F9C /* hour@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B00B101A67717800870F9C /* hour@2x.png */; };
+		A5B00B151A67717800870F9C /* minute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B00B111A67717800870F9C /* minute@2x.png */; };
+		A5B00B161A67717800870F9C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B00B121A67717800870F9C /* second@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		A5B00AFD1A67650200870F9C /* CoreAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B00B021A67650200870F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5B00B031A67650200870F9C /* CoreAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationTests.m; sourceTree = "<group>"; };
+		A5B00B0F1A67717800870F9C /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		A5B00B101A67717800870F9C /* hour@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hour@2x.png"; sourceTree = "<group>"; };
+		A5B00B111A67717800870F9C /* minute@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minute@2x.png"; sourceTree = "<group>"; };
+		A5B00B121A67717800870F9C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +71,7 @@
 		A5B00ADB1A67650200870F9C = {
 			isa = PBXGroup;
 			children = (
-				A5B00AE61A67650200870F9C /* CoreAnimation */,
+				A5B00B0D1A67711D00870F9C /* CoreAnimation */,
 				A5B00B001A67650200870F9C /* CoreAnimationTests */,
 				A5B00AE51A67650200870F9C /* Products */,
 			);
@@ -117,6 +125,26 @@
 				A5B00B021A67650200870F9C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5B00B0D1A67711D00870F9C /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				A5B00B0E1A67716200870F9C /* image */,
+				A5B00AE61A67650200870F9C /* CoreAnimation */,
+			);
+			name = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		A5B00B0E1A67716200870F9C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A5B00B0F1A67717800870F9C /* clock@2x.png */,
+				A5B00B101A67717800870F9C /* hour@2x.png */,
+				A5B00B111A67717800870F9C /* minute@2x.png */,
+				A5B00B121A67717800870F9C /* second@2x.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +228,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5B00AF31A67650200870F9C /* Main.storyboard in Resources */,
+				A5B00B161A67717800870F9C /* second@2x.png in Resources */,
+				A5B00B131A67717800870F9C /* clock@2x.png in Resources */,
+				A5B00B151A67717800870F9C /* minute@2x.png in Resources */,
+				A5B00B141A67717800870F9C /* hour@2x.png in Resources */,
 				A5B00AF81A67650200870F9C /* LaunchScreen.xib in Resources */,
 				A5B00AF51A67650200870F9C /* Images.xcassets in Resources */,
 			);
